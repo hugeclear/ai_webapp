@@ -33,12 +33,7 @@ some PyTorch project with entrypoint `main.py`, you could run it with
 the following command:
 
 ```sh
-docker run --rm -it --init \
-  --gpus=all \
-  --ipc=host \
-  --user="$(id -u):$(id -g)" \
-  --volume="$PWD:/app" \
-  anibali/pytorch python3 main.py
+print(hello)
 ```
 
 Here's a description of the Docker command-line options shown above:
