@@ -1,35 +1,14 @@
-# PyTorch Docker image
+# PyTorch image recognition
 
-[![Docker image version](https://img.shields.io/docker/image-size/anibali/pytorch/latest)](https://hub.docker.com/r/anibali/pytorch/)
-[![Docker image pulls](https://img.shields.io/docker/pulls/anibali/pytorch)](https://hub.docker.com/r/anibali/pytorch/)
-[![Docker image size](https://img.shields.io/docker/v/anibali/pytorch/latest)](https://hub.docker.com/r/anibali/pytorch/)
 
-Ubuntu + PyTorch + CUDA (optional)
+
+Colab + PyTorch + CUDA 
 
 
 ## Requirements
 
-In order to use this image you must have Docker Engine installed. Instructions
-for setting up Docker Engine are
+colabollatory environment is required
 [available on the Docker website](https://docs.docker.com/engine/installation/).
-
-### CUDA requirements
-
-If you have a CUDA-compatible NVIDIA graphics card, you can use a CUDA-enabled
-version of the PyTorch image to enable hardware acceleration. I have only
-tested this in Ubuntu Linux.
-
-Firstly, ensure that you install the appropriate NVIDIA drivers. On Ubuntu,
-I've found that the easiest way of ensuring that you have the right version
-of the drivers set up is by installing a version of CUDA _at least as new as
-the image you intend to use_ via
-[the official NVIDIA CUDA download page](https://developer.nvidia.com/cuda-downloads).
-As an example, if you intend on using the `cuda-10.1` image then setting up
-CUDA 10.1 or CUDA 10.2 should ensure that you have the correct graphics drivers.
-
-You will also need to install the NVIDIA Container Toolkit to enable GPU device
-access within Docker containers. This can be found at
-[NVIDIA/nvidia-docker](https://github.com/NVIDIA/nvidia-docker).
 
 
 ## Prebuilt images
